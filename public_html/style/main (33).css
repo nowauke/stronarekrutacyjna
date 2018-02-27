@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
-html *
-{
-    opacity:1;
-}
 /*KONTENER*/
 .container
 {   font-size: 15px;
