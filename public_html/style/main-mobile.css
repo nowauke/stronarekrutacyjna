@@ -14,7 +14,7 @@ body
 }
 .swiper-slide .swiper-slide-active
 {
-z-index: 2;
+    z-index: 2;
 }
 .container
 {
@@ -40,6 +40,7 @@ z-index: 2;
     width:100vw;
     position:fixed;
     top:0px;
+    margin:0px;
 
 }
 .mobile-menu
@@ -67,7 +68,6 @@ z-index: 2;
     width:100%;
     margin-top:0px;
     margin:0px;
-    padding-right: 10px;
 
 }
 
@@ -108,7 +108,7 @@ li
 {
     padding:0px;
     padding-top: 150px;
-    padding-left:20px;
+    padding-left:40px;
     width:100vw;
 
 }
@@ -129,9 +129,9 @@ li
 }
 .second-section
 { width:100%;
-  background-image: url('../images/second-section.png');
-  height:1234px;
-  background-size: cover;
+  background-image: url('../images/second-section-mobile.png');
+
+  background-repeat: no-repeat
 }
 .second-section-text
 {
@@ -156,19 +156,10 @@ li
 }
 .news
 {
-    margin-top: 120px;
-    position:static;
+
     display: none;
 }
-.first-news, .second-news, .third-news 
-{
-    padding:15px
-}
-.first-news, .second-news, .third-news h5 
-{
-    font-size: 18px;
-    font-weight: 300;
-}
+
 .news-arrow
 {
     margin-top:0px;
@@ -200,19 +191,41 @@ li
     background-size: cover;
     height: 100%;
     margin:0px;
+    padding: 0px -15px;
 }
+.fourth-section-text  .icon .col
+{   
+    padding: 0px !important;
+    display:block !important;
+    float:left;
+    margin-right: 0px;
+    padding-right:0px;
+    width:100%;
+}
+s
 .icon img
 {
-    margin-left: -20px;
+    margin-right: 0px;
+   
+
+    padding-right:0px;
+
 }
 .icon h6
 {
-    margin-left:-20px;
+    margin-right: 0px;
+    padding: 0px;
+
+    padding-right:0px;
+
 }
 .icon p
 {
     text-align: center;
-    margin-left:75px
+    padding-right:0px;
+    margin:0px auto;;
+
+
 }
 .fifth-section
 {
@@ -222,17 +235,24 @@ li
 .fifth-section-text
 {
     padding:0px;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-left:20px;
     width:80%;
 }
 .fifth-section-text h2
 {
+
     width:80%;
 }
 .fifth-section-text p
 {
     width:80%;
+    padding-top: 50px;
+}
+
+.fifth-section-text .arrow
+{
+    margin-top: 190px;
 }
 .sixth-section
 {
@@ -248,18 +268,21 @@ li
 
 .sixth-section h6
 {
-    margin-left: 115px
+    margin: 10% auto;
 }
 
 .sixth-section .row
 {
     float:left;
-    margin:0px 90px 0px 70px;
+    display: block;
+    padding: 25%;
+
 }
-.sixth-section img
+.sixth-section p
 {
-    height:100%;
+    margin-top:-30%;
 }
+
 .seventh-section
 {
     height: 100%;
